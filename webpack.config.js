@@ -38,6 +38,11 @@ module.exports = {
         },
         include: path.join(__dirname, '..'),
         exclude: /node_modules/
+      },
+      {
+        test: /\.js$/,
+        loader: 'eslint-loader',
+        exclude: /node_modules/
       }
     ]
   }
