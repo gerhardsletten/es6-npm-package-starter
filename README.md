@@ -1,6 +1,6 @@
 # es6-npm-package-starter #
 
-A starter for modules to publish on npm
+A starter for node-modules to publish on npm #react #webpack #babel #standardjs
 
 ## Contains ##
 

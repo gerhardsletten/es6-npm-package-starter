@@ -2,7 +2,7 @@
   "name": "es6-npm-package-starter",
   "version": "1.0.0",
   "description": "A starter for a es6 npm module",
-  "main": "index.js",
+  "main": "lib/Hello.js",
   "scripts": {
     "compile": "babel --presets es2015,react --optional runtime -d lib/ src/",
     "prepublish": "npm run compile",
