@@ -10,6 +10,10 @@ class Hello extends Component {
   }
 }
 
+Hello.defaultProps = {
+  name: 'World'
+}
+
 Hello.propTypes = {
   name: PropTypes.string
 }
